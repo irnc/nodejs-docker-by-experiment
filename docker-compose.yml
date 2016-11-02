@@ -1,0 +1,9 @@
+version: '2'
+services:
+  experiment:
+    build: .
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    environment:
+      TEST: value

@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-docker-by-experiment",
+  "version": "1.0.0",
+  "description": "Node.js devenv inside a Docker container",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irnc/nodejs-docker-by-experiment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/irnc/nodejs-docker-by-experiment/issues"
+  },
+  "homepage": "https://github.com/irnc/nodejs-docker-by-experiment#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
